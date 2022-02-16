@@ -33,6 +33,7 @@ Crea un entorno virtual mediante ``venv``
     # Linux, WSL or macOS
     source env/bin/activate
     ```
+    ![image](https://github.com/SoyIsaacRs/KatasIsaacRosasLaunchX/blob/master/imagenes/02%20env.PNG)
 
 Ahora ves en tu terminal ``(env)``. Eso significa que has activado tu entorno virtual y se ha aislado del resto de tu máquina.
 
@@ -47,13 +48,14 @@ Ahora que estás dentro de tu entorno virtual, puedes instalar una biblioteca y 
     ```
     pip freeze
     ```
-
+    ![image](https://github.com/SoyIsaacRs/KatasIsaacRosasLaunchX/blob/master/imagenes/03%20pip%20freeze.PNG)
     No deberías obtener respuesta. A continuación, veamos cómo cambia la salida de ``pip freeze`` cuando se agrega una biblioteca (un paquete).
 
 * Ejecuta el comando ``pip install`` para instalar una biblioteca:
    ```
    pip install python-dateutil
    ```
+   ![image](https://github.com/SoyIsaacRs/KatasIsaacRosasLaunchX/blob/master/imagenes/04%20install%20python-dateutil.PNG)
 * Un gran mensaje de salida de texto dice que está instalando tu biblioteca, y debe terminar con la siguiente oración:
 
     ```
@@ -63,6 +65,7 @@ Ahora que estás dentro de tu entorno virtual, puedes instalar una biblioteca y 
     ```
     pip freeze
     ```
+    ![image](https://github.com/SoyIsaacRs/KatasIsaacRosasLaunchX/blob/master/imagenes/05%20pip%20freeze.PNG)
 * Ahora deberías ver la siguiente lista:
     ```
     python-dateutil==2.8.2
@@ -77,7 +80,7 @@ Ejecuta el comando ``deactivate``:
 ```
 deactivate
 ```
-
+![image](https://github.com/SoyIsaacRs/KatasIsaacRosasLaunchX/blob/master/imagenes/06%20deactivate.PNG)
 Observa cómo cambia el mensaje de tu terminal ``(env)`` a cómo se veía antes.
 
 ¡Felicidades! Has logrado crear y usar correctamente un entorno virtual.
