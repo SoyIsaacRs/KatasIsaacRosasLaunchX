@@ -14,6 +14,7 @@ Crea un entorno virtual mediante ``venv``
     ```
        python3 -m venv env 
     ```
+    ![image](https://github.com/SoyIsaacRs/KatasIsaacRosasLaunchX/blob/master/imagenes/01%20pythonv.PNG)
     ``
     python -m venv env
     ``
